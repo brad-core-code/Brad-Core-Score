@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Architecture · Brad-Core OS</title>
+  <meta name="description" content="Sealed ladder, Sentinel, Amy Protocol, Packet Seal, and Master Log.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">Brad<span>-Core</span></a>
+      <button type="button" class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.primary-nav').classList.toggle('open')">Menu</button>
+      <nav class="primary-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="architecture.html" class="active">Architecture</a>
+        <a href="validation.html">Validation</a>
+        <a href="applications.html">Applications</a>
+        <a href="mission.html">Mission</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="page-hero">
+      <div class="wrap">
+        <p class="kicker">Sealed system</p>
+        <h1>Architecture</h1>
+        <p>One ladder. No skipped states. No convenience logic. The same engine in every node.</p>
+      </div>
+    </div>
+    <section>
+      <div class="wrap">
+        <h2>Closed loop</h2>
+        <p style="color:var(--muted);max-width:40rem;">Every critical path completes. Partial cycles are treated as failure, not as progress.</p>
+        <div class="ladder">
+          <span>Read</span>
+          <span>Interpret</span>
+          <span>Decide</span>
+          <span>Act</span>
+          <span class="hot">Log</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <h2>State machine</h2>
+        <p style="color:var(--muted);max-width:42rem;">Hazard class determines the only legal transitions. DECIDE may recommend. Sentinel validates. Amy authorizes Class 4/5. Illegal jumps become Clause-Critical hazards.</p>
+        <div class="ladder">
+          <span>Baseline</span>
+          <span>Operational</span>
+          <span>Analytical</span>
+          <span>Protective</span>
+          <span class="hot">Emergency</span>
+          <span class="hot">Locked</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <h2>Enforcement</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h3>Emmy Clause</h3>
+            <p>Constraint: no alarm dismissed, no test cancelled, no escalation stalled. It does not speak. It binds every other layer.</p>
+          </article>
+          <article class="card">
+            <h3>Firelight Sentinel</h3>
+            <p>Identity shield, dual-validation, loop-closure, boundary map. Containment sequence: detect, isolate, stabilize, enforce, audit.</p>
+          </article>
+          <article class="card">
+            <h3>Amy Protocol</h3>
+            <p>Emergency ladder, paradox-class deadlock, LOCKED state. Amy is allowed to finish the loop. Amy is not allowed to weaken it.</p>
+          </article>
+          <article class="card">
+            <h3>Packet Seal</h3>
+            <p>Human autonomy floor. Security cover does not authorize extraction, coercion, or informal imprisonment.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <h2>Recovery</h2>
+        <p style="color:var(--muted);max-width:42rem;">The system never returns to BASELINE automatically. Recovery is a descent of the same ladder, dual-authorized, with forensic replay. A neutralized threat does not permanently suppress a new life-critical signal.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <nav class="footer-nav">
+        <a href="legal.html">Legal</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div>Brad-Core OS · Williams, Arizona</div>
+    </div>
+  </footer>
+</body>
+</html>
